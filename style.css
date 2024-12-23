@@ -1,0 +1,170 @@
+.container{
+    background: radial-gradient(pink,white);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 0rem 4rem;
+   
+}
+
+.nav a{
+    color: #ed13b9;
+    gap: 10rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+}
+.logo img{
+    width: 20%;
+    height: 100%;
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+   gap:19rem;
+    margin-top: 10rem;
+    justify-content: space-between;
+}
+.middle h1{
+    color: #ed13b9;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+.middle p{
+    color: black;
+    font-size: large;
+   
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+.right img{
+    width:100%;
+    height: 100%;
+    /* padding-left: 10rem; */
+}
+.left a{
+    color: white;
+    background-color: red;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    box-shadow: 0 0 12px pink ;
+    border-radius: 12px;
+    padding: 12px;
+    padding-top: 12px;
+}
+.btn{
+    padding-top: 12px;
+    
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+.fa-solid.fa-magnifying-glass{
+    color:antiquewhite;
+    font-size: 40px;
+    box-shadow:0 0 12px;
+    padding: 15px 21px;
+    border-radius: 13px;
+}
+.sell h1{
+    font-size: 3rem;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0rem 5rem;
+    text-align: center;
+}
+.bento img{
+    width: 51%;
+    height: 70%;
+}
+.bento{
+    /* box-shadow: 0 0 12px pink; */
+    background-color: pink;
+    border-radius: 3rem;
+    border: 1px solid pink;
+}
+.section{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    display: grid;
+    gap:2rem;
+    grid-template-columns: repeat(3,1fr);
+}
+.bento a{
+    color: white;
+    background-color: red;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    /* border: 2px solid black; */
+    box-shadow: 0 0 12px pink ;
+    border-radius: 12px;
+    padding: 12px;
+    padding-top: 12px;
+}
+.bento h3{
+    font-size: 1.7rem;
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#bento-2 img{
+    width: 100%;
+    height: 70%;
+}
+.about_img img{
+    width: 20vw;
+    height: 94%;
+    border-radius: 50%;
+}
+.about_head h1{
+    font-size: 3rem;
+    color: Red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0rem 5rem;
+    text-align: center;
+}
+.about{
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 5rem;
+    gap: 12rem;
+}
+.about_p p{
+    font-size: 23px;
+    text-align: justify;
+}
+.foot ul{
+    list-style: none;
+    text-align: center;
+}
+.foot ul li{
+    text-decoration: none;
+    
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* max-width: 80%; */
+    padding: 3rem 7rem;
+    background-color: #e61414de;
+    color: white;
+}
